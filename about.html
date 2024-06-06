@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>St Thomas Nursery & Primary School</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<!-- Link to Slick CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom CSS -->
+    <style>
+		body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            background-color: #1f82e4;
+            color: #ffffff;
+            padding: 40px 60;
+        }
+        .top-bar .text {
+            font-size: 1rem;
+            color: #ffffff;
+        }
+        .welcome-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 40px;
+            margin-top: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .welcome-title {
+            font-size: 2.5rem;
+            color: #343a40;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .welcome-text {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #6c757d;
+            text-align: justify;
+        }
+		.container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+        .section-heading {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #1f82e4;
+        }
+        .about-item {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .about-item h3 {
+            font-size: 1.8rem;
+            color: #1f82e4;
+            margin-bottom: 20px;
+        }
+        .about-item p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .about-item i {
+            font-size: 3rem;
+            color: #1f82e4;
+            margin-bottom: 10px;
+        }
+        .icon-box {
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #1f82e4;
+            margin-right: 20px;
+        }
+        .icon-box i {
+            font-size: 2rem;
+            color: #ffffff;
+        }
+		/* Background image section styling */
+.background-image {
+    background-image: url('images/kids.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Ensures the background image stays fixed as the content scrolls */
+    background-position: center center; /* Positions the background image at the center */
+    height: 50vh; /* Adjust height as needed */
+    width: 100%;
+    position: relative; /* Ensure positioning context for z-index */
+    z-index: 0; /* Lower z-index to position behind the content */
+    top: 0;
+    left: 0;
+}
+  
+.gallery-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+.gallery-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+
+/* Adjustments for mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.95); /* Adjusted background opacity for smaller screens */
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="py-2 top-bar">
+        <div class="container">
+            <div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+                <div class="col-lg-12 d-block">
+                    <div class="row d-flex">
+                        <div class="col-md-5 pr-4 d-flex topper align-items-center">
+                            <div class="icon bg-fifth mr-2 d-flex justify-content-center align-items-center">
+                                <span class="bi bi-geo-alt-fill"></span>
+                            </div>
+                            <span class="text">Eastern Uganda, Mbale town</span>
+                        </div>
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon bg-secondary mr-2 d-flex justify-content-center align-items-center">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <span class="text">stthomas@email.com</span>
+                        </div>
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon bg-tertiary mr-2 d-flex justify-content-center align-items-center">
+                                <span class="icon-phone2"></span>
+                            </div>
+                            <span class="text">+256 757314565</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+        <div class="container d-flex align-items-center">
+            <a class="navbar-brand" href="index.html">St Thomas Nursery & Primary School</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
+                    <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="teacher.html" class="nav-link">Teacher</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+	
+	<!-- Background image section -->
+    <div class="background-image"></div>
+
+    <!-- Welcome Section -->
+    <section class="ftco-section ftco-no-pt ftc-no-pb">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-lg-10 welcome-section">
+					<h2 class="mb-4 welcome-title">Welcome to St Thomas Nursery & Primary School</h2>
+					<p class="welcome-text">Welcome to St. Thomas Nursery & Primary School! Located in the heart of Mbale town in Eastern Uganda, St. Thomas Nursery & Primary School is dedicated to nurturing young minds and fostering a love for learning. Our school offers a safe, supportive, and stimulating environment where every child can thrive and reach their full potential. Join us on a journey of discovery, growth, and excellence. We are excited to be part of your child's educational journey and look forward to creating lasting memories together.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="container">
+        <h2 class="section-heading">About St Thomas Nursery & Primary School</h2>
+
+        <!-- Motto Section -->
+        <div class="about-item">
+            <div class="icon-box">
+                <i class="fas fa-quote-left"></i>
+            </div>
+            <h3>Motto</h3>
+            <p>Inspiring Minds, Shaping Futures</p>
+        </div>
+
+        <!-- Mission Section -->
+        <div class="about-item">
+            <div class="icon-box">
+                <i class="fas fa-bullseye"></i>
+            </div>
+            <h3>Mission</h3>
+            <p>To provide quality education in a nurturing environment that promotes academic excellence, character development, and lifelong learning.</p>
+        </div>
+
+        <!-- Location Section -->
+        <div class="about-item">
+            <div class="icon-box">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Location</h3>
+            <p>Eastern Uganda, Mbale town</p>
+        </div>
+
+        <!-- Vision Section -->
+        <div class="about-item">
+            <div class="icon-box">
+                <i class="fas fa-eye"></i>
+            </div>
+            <h3>Vision</h3>
+            <p>To be a leading institution recognized for educational excellence and holistic child development.</p>
+        </div>
+    </div>
+	
+	<div class="gallery-container">
+		<h2 class="gallery-title">Welcome To Our Gallery</h2>
+		<div class="gallery">
+			<img src="images/Gallery photos/bg_1.jpg" alt="Image 1">
+			<img src="images/Gallery photos/bg_2.jpg" alt="Image 2">
+			<img src="images/Gallery photos/bg_3.jpg" alt="Image 3">
+			<!-- Add more images as needed -->
+		</div>
+		<button class="prev" onclick="changeSlide(-1)">❮</button>
+		<button class="next" onclick="changeSlide(1)">❯</button>
+	</div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <!-- Find Us Section -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Find Us</h5>
+                    <p><i class="bi bi-geo-alt-fill mr-3"></i> Eastern Uganda, Mbale town</p>
+                    <p><i class="bi bi-phone mr-3"></i> +256 757314565</p>
+                    <p><i class="bi bi-envelope-fill mr-3"></i> stthomas@email.com</p>
+                </div>
+
+                <!-- Links Section -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Links</h5>
+                    <p><a href="index.html" class="text-white" style="text-decoration: none;">Home</a></p>
+                    <p><a href="about.html" class="text-white" style="text-decoration: none;">About</a></p>
+                    <p><a href="contact.html" class="text-white" style="text-decoration: none;">Contact</a></p>
+                    <p><a href="program.html" class="text-white" style="text-decoration: none;">Programs</a></p>
+                    <p><a href="teacher.html" class="text-white" style="text-decoration: none;">Teachers</a></p>
+                </div>
+            </div>
+
+            <hr class="mb-4">
+
+            <!-- Copyright Section -->
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p class="text-white text-center text-md-left">© <script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap and Icons Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+
+	<!-- Link to jQuery (ensure it's loaded before Slick) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Link to Slick JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>
+	let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("gallery")[0].getElementsByTagName("img");
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    
+    slideIndex++;
+    
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }    
+    
+    slides[slideIndex - 1].style.display = "block";
+    
+    // Change image every 3 seconds
+    setTimeout(showSlides, 3000);
+}
+
+function changeSlide(n) {
+    showSlides(slideIndex += n);
+}
+
+
+</script>
+</body>
+</html>
