@@ -10,11 +10,11 @@
 @import url(swiper.min.css);
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
-@import url(jquery-ui.css);
+@import url(jquery-ui.css); 
 @import url(nice-select.css);
 
 * {
-    box-sizing: border-box !important;
+    box-sizing: border-box !important; 
     transition: ease all 0.5s;
 }
 
@@ -205,7 +205,7 @@ button {
 
 /*Top bar info first*/
 .top-bar {
-    background-color: #4f12c0; 
+    background-color: white; 
     color: #ffffff; 
     padding: 10px 0; 
     font-size: 14px; 
@@ -227,17 +227,12 @@ button {
 .top-bar div:hover {
     color: chocolate; 
 }
-
-
-
 .header_section {
     width: 100%;
     float: left;
-    background-color: #3617c0;
     height: auto;
     background-size: 100%;
 }
-
 .bg-light {
     background-color: transparent !important;
 }
@@ -262,20 +257,20 @@ button {
 }
 
 .navbar {
-    padding: 20px 1rem;
+    /* padding: 20px 1rem; */
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: .5rem;
     padding-left: .5rem;
     font-size: 18px;
-    color: #fff;
+    color: black;
 }
 
 .logo img {
-    height: 80px; /* Adjust height as needed */
-    width: auto;  /* Maintain aspect ratio */
-    display: block;  /* Remove any default inline spacing */
+    height: 90px; 
+    width: auto;  
+    display: block; 
 }
 
 /* header section end */
@@ -285,11 +280,11 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/2.webp);
+    background-image: url(../images/school.webp);
     height: auto;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
 }
 
 .banner_taital {
@@ -387,11 +382,12 @@ button {
 
 .about_img img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 .about_section {
     width: 100%;
     float: left;
+    padding: 50px 0;
 }
 
 .about_taital_main {
@@ -415,10 +411,10 @@ button {
     font-size: 16px;
     color: #4c4c4b;
     margin: 0px;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
-.about_text {
+.about_text2 {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -431,6 +427,8 @@ button {
     width: 175px;
     float: left;
     padding-top: 40px;
+    margin-top: -10px;
+
 }
 
 .read_bt a {
@@ -459,6 +457,7 @@ button {
 }
 
 .gallery_taital {
+    margin-top: -90px;
     width: 100%;
     float: left;
     text-align: center;
@@ -487,6 +486,7 @@ button {
     display: block;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 img.image {
@@ -557,12 +557,12 @@ a:hover {
 
 /* gallery section end */
 
-/* services section start */
+/* Programs section start */
 
 .services_section {
     width: 100%;
     float: left;
-    background-image: url(../images/services-bg.png);
+    background-image: url(../images/6.jpg);
     height: auto;
     padding-bottom: 100px;
     background-attachment: fixed;
@@ -597,7 +597,7 @@ a:hover {
 }
 
 .house_icon img {
-    width: 45px;
+    width: 100px;
     min-height: 50px;
 }
 
@@ -691,110 +691,54 @@ a:hover {
 /* services section end */
 
 /* client section start */
-
-.client_section {
-    width: 100%;
-    float: left;
-}
-
-.client_taital {
+.testimonial-intro h2{
+    margin-top: 40px;
     width: 100%;
     float: left;
     font-size: 40px;
+    text-align: center;
     color: #f76d37;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.client_text {
-    width: 100%;
-    font-size: 16px;
-    color: #252525;
-    margin: 0 auto;
+.container .card{
+    width: 330px;
+    padding: 15px;
+    background: white;
+    text-align: center;
+    margin: 0 15px 15px 0;
+    border-radius: 10px;
 }
 
-.client_section_2 {
-    width: 100%;
-    float: left;
-    margin-top: 50px;
-    padding-bottom: 100px;
+.container .card i{
+    font-size: 25px;
+    color: #25c1ff;
 }
 
-.testimonial_section_2 {
-    width: 100%;
-    float: left;
-    padding: 0px 40px 30px 40px;
-    position: relative;
+.container .card p{
+    margin: 15px 0;
 }
 
-.testimonial_section_2::after {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 150px;
-    border-top: 3px solid #252525;
-    border-left: 3px solid #252525;
-    top: 12px;
-    left: 0px;
-    right: initial;
+.container .card img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #25c1ff;
 }
-
-.testimonial_section_2::before {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 150px;
-    border-bottom: 3px solid #252525;
-    border-right: 3px solid #252525;
-    top: 12px;
-    left: initial;
-    right: 0px;
-}
-
-.client_name_text {
-    width: 100%;
-    float: left;
-    font-size: 24px;
-    color: #f76d37;
-    text-transform: uppercase;
-    padding-left: 100px;
-    font-weight: bold;
-}
-
-.quick_icon {
-    text-align: right;
-    padding-left: 30px;
-}
-
-.customer_text {
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #252525;
-    margin: 0px;
-}
-
-.carousel-indicators li {
-    position: relative;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 55px;
-    height: 18px;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    background-color: #252525;
-    border-radius: 20px;
-}
-
-.carousel-indicators {
-    bottom: 0px;
-}
-
-.carousel-indicators .active {
-    background-color: #f76d37;
-}
-
 /* client section end */
 
 /* contact section start */
@@ -865,7 +809,7 @@ a:hover {
 }
 
 .send_btn {
-    width: 170px;
+    width: 300px;
     margin: 0 auto;
     text-align: center;
 }
@@ -1017,4 +961,82 @@ a:hover {
 
 .margin_top90 {
     margin-top: 90px;
+}
+
+/*** Team ***/
+.team-item {
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.team-item .btn {
+    color: var(--primary);
+    background: #FFFFFF;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+
+}
+
+.team-item .btn:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+}
+
+.team-item:hover {
+    border-color: var(--secondary) !important;
+}
+
+.team-item:hover .bg-primary {
+    background: var(--secondary) !important;
+}
+
+.team-item:hover .bg-primary i {
+    color: var(--secondary) !important;
+}
+.custom-title {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.custom-description {
+    font-size: 18px;
+}
+.team-item h5 {
+    font-size: 2em;
+    color: #c5510d;
+}
+.team-item small {
+    font-size: 1.5em;
+}
+/* School motto, vision and mission section */
+.text-primary {
+    color: #FEA116 !important;
+    /* font-size: 40px; */
+
+}
+.service-item {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+.service-item:hover {
+    transform: translateY(-10px);
+    background-color: #FEA116;
+    color: white;
+}
+.service-item:hover .service-icon {
+    background-color: white;
+}
+.service-item .service-icon i {
+    transition: color 0.3s;
+}
+.service-item:hover .service-icon i {
+    color: #FEA116;
+}
+.service-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
 }
