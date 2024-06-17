@@ -9,11 +9,11 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>St Thomas Nursery & Primary School</title>
+      <title>St. Thomas Junior School</title>
       <link rel="icon" type="image/x-icon" href="/images/logo.png">
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
+      <meta name="keywords" content="St. Thomas Junior School,Mbale">
+      <meta name="description" content="St. Thomas Junior School,Mbale">
+      <meta name="author" content="St. Thomas Junior School,Mbale"> 
       <!-- bootstrap css -->
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <!-- style css -->
@@ -26,10 +26,13 @@
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- owl stylesheets --> 
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+
    </head>
    <body>
       <!--header section start -->
@@ -42,7 +45,7 @@
                </button>
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
-                     <li class="nav-item">
+                     <li class="nav-item ">
                         <a class="nav-link" href="index.html">Home</a>
                      </li>
                      <li class="nav-item">
@@ -61,56 +64,55 @@
          </div>
       </div>
       <!--header section end -->
-
- <!-- banner section start -->
- <div class="banner_section layout_padding">
-   <div class="container">
-      <div id="main_slider" class="carousel slide" data-ride="carousel">
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <div class="row">
-                  <div class="col-sm-12">
-                     <div class="banner_taital">
-                        <h4 class="outstanding_text">Welcome To</h4>
-                        <h6 class="coffee_text">St. Thomas Junior School</h6>
-                        
+      <!-- banner section start -->
+      <div class="banner_section layout_padding">
+         <div class="container">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <div class="banner_taital">
+                              <h4 class="outstanding_text">Welcome To</h4>
+                              <h6 class="coffee_text">St. Thomas Junior School</h6>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <div class="banner_taital">
+                              <h1 class="outstanding_text">Our Motto:</h1>
+                              <h3 class="coffee_text">Nurturing young minds, inspiring innovation</h3>
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <div class="banner_taital">
+                              <h1 class="outstanding_text">Mission:</h1>
+                              <h3 class="coffee_text">Nurturing young minds, inspiring innovation</h3>
+                              
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
-            </div>
-            <div class="carousel-item">
-               <div class="row">
-                  <div class="col-sm-12">
-                     <div class="banner_taital">
-                        <h1 class="outstanding_text">Our Motto:</h1>
-                        <h3 class="coffee_text">Nurturing young minds, inspiring innovation</h3>
-                        
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <div class="row">
-                  <div class="col-sm-12">
-                     <div class="banner_taital">
-                        <h1 class="outstanding_text">Mission:</h1>
-                        <h3 class="coffee_text">Nurturing young minds, inspiring innovation</h3>
-                        
-                     </div>
-                  </div>
-               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a>
             </div>
          </div>
-         <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-         <i class="fa fa-angle-left"></i>
-         </a>
-         <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-         <i class="fa fa-angle-right"></i>
-         </a>
       </div>
-   </div>
-</div>
-<!-- banner section end -->
+      <!-- banner section end -->
 
       <!-- services section start -->
       <div class="services_section layout_padding">
@@ -161,6 +163,69 @@
          </div>
       </div>
       <!-- services section end -->
+
+<!--Sponsors section-->
+
+<!-- Button to Open Sponsorship Form Modal -->
+<div style="text-align: center; margin-top: 30px;">
+   <p style="font-size: 30px;color: #f76d37; margin-top: 10px;font-weight: bold;
+    ">To sponsor any program in the school, click the button below to signup.</p>
+   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#sponsorshipModal">
+      Become a Sponsor
+   </button>
+</div>
+
+<!-- Modal for Sponsorship Form -->
+<div class="modal fade" id="sponsorshipModal" tabindex="-1" role="dialog" aria-labelledby="sponsorshipModalLabel" aria-hidden="true">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header">
+            <h2 class="modal-title" id="sponsorshipModalLabel" style="color: #f76d37;">Signup to Sponsor any program.</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+            </button>
+         </div>
+         <div class="modal-body" style="background-color: rgb(208, 223, 230);">
+            <form action="https://formspree.io/f/xqkrrbpq" method="POST">
+               <div style="margin-bottom: 15px;">
+                  <label for="sponsor_name" style="display: block; font-weight: bold;">Name:</label>
+                  <input type="text" id="sponsor_name" name="sponsor_name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" required>
+               </div>
+               <div style="margin-bottom: 15px;">
+                  <label for="email" style="display: block; font-weight: bold;">Email:</label>
+                  <input type="text" id="sponsor_email" name="email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" required>
+               </div>
+               <!-- Add other form fields -->
+               <div style="margin-bottom: 15px;">
+                  <label for="sponsor_contact" style="display: block; font-weight: bold;">Contact:</label>
+                  <input type="tel" id="sponsor_contact" name="sponsor_contact" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" required>
+               </div>
+               <div style="margin-bottom: 15px;">
+                  <label for="sponsor_location" style="display: block; font-weight: bold;">Location:</label>
+                  <input type="text" id="sponsor_location" name="sponsor_location" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;" required>
+               </div>
+               <div style="margin-bottom: 15px;">
+                  <label for="sponsorship_type" style="display: block; font-weight: bold;">Type of Sponsorship:</label>
+                  <div style="margin-bottom: 15px;">
+                     <input type="radio" id="bursaries" name="sponsorship_type" value="bursaries" required>
+                     <label for="bursaries">Offer bursaries to pupils</label>
+                  </div>
+                  <div style="margin-bottom: 15px;">
+                     <input type="radio" id="funding" name="sponsorship_type" value="funding" required>
+                     <label for="funding">Fund School Programs</label>
+                  </div>
+               </div>
+               <!-- Submit Button -->
+               <div style="text-align: center;">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+</div>
+
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">

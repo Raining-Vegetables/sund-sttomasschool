@@ -565,7 +565,7 @@ a:hover {
     background-image: url(../images/3.jpg);
     height: auto;
     padding-bottom: 100px;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
 .services_taital {
