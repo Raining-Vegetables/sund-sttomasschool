@@ -104,3 +104,9 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .sub-title {
+  order: -1; /* This will make it appear first */
+  }
+  }
