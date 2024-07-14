@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/main.js"></script>
+    <title>St Thomas Junior School</title>
+</head>
+
+<!-- <body class="text-white"> -->
+<!--Hero section-->
+<div class="bg-white bg-landing">
+    <header class="absolute inset-x-0 top-0 z-50">
+        <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="index.html" class="-m-1.5 p-1.5">
+                    <span class="sr-only">St Thomas Junior School, Busui</span>
+                    <img class="h-8 w-auto" src="images/logo.png" alt="Logo" />
+                </a>
+            </div>
+            <div class="flex lg:hidden">
+                <button id="toggleButton" class="block lg:hidden text-white focus:outline-none hover:bg-red-200">
+                    <svg fill="#CA8A04" height="64px" width="64px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="-297 -297 891.00 891.00" xml:space="preserve" stroke="#000000" stroke-width="0.00297">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M280.214,39.211H16.786C7.531,39.211,0,46.742,0,55.997v24.335c0,9.256,7.531,16.787,16.786,16.787h263.428 c9.255,0,16.786-7.531,16.786-16.787V55.997C297,46.742,289.469,39.211,280.214,39.211z">
+                                        </path>
+                                        <path
+                                            d="M280.214,119.546H16.786C7.531,119.546,0,127.077,0,136.332v24.336c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.336C297,127.077,289.469,119.546,280.214,119.546z">
+                                        </path>
+                                        <path
+                                            d="M280.214,199.881H16.786C7.531,199.881,0,207.411,0,216.668v24.335c0,9.255,7.531,16.786,16.786,16.786h263.428 c9.255,0,16.786-7.531,16.786-16.786v-24.335C297,207.411,289.469,199.881,280.214,199.881z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12  text-green-600">
+                <a href="index.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Home</a>
+                <a href="about.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">About</a>
+                <a href="contact_us.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Contact
+                    Us</a>
+                <a href="programs.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Programs</a>
+                <a href="resources.html" class="text-sm font-semibold leading-6   hover:text-[#215b4b]">Resources</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+        </nav>
+
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div id="sidebar"
+            class="lg:hidden bg-gray-800 text-white fixed inset-y-0 left-0 w-56 transform -translate-x-full transition duration-200 ease-in-out">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-50"></div>
+            <div
+                class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-between">
+                    <a href="index.html" class="-m-1.5 p-1.5">
+                        <span class="sr-only">St Thomas Junior School Busiu</span>
+                        <img class="h-8 w-auto" src="images/logo.png" alt="" />
+                    </a>
+                    <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10 ">
+                        <div class="space-y-2 py-6 ">
+                            <a href="index.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7   text-green-600 hover:text-[#215b4b]">Home</a>
+                            <a href="about.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">About</a>
+                            <a href="contact_us.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Contact
+                                Us</a>
+                            <a href="programs.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Programs</a>
+                            <a href="resources.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7  text-green-600  hover:text-[#215b4b]">Resources</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <!-- <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+        <div
+          class="relative rounded-full px-3 py-1 text-sm leading-6 text-green-600 font-semibold hover:ring-green-600">
+          Nurturing Young Minds, Inspiring Innovation.
+          <a href="about.html" class="font-bold text-green-600 hover:text-green-300"><span class="absolute inset-0"
+              aria-hidden="true"></span>Read
+            more <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </div> -->
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-green-600 sm:text-6xl">
+                    Student Resources
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Hero Section -->
+
+
+
+<div class="overflow-hidden bg-white pt-32 pb-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <h2 class="mb-8 text-3xl font-bold tracking-tight text-green-600 sm:text-4xl">Study Materials</h2>
+        <div id="study-materials" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Dynamic Content will be injected here -->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--Footer Section-->
+<footer class="bg-gradient-to-br from-green-700 to-green-900 text-white">
+    <div class="container px-6 py-12 mx-auto">
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+            <div>
+                <p class="text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">
+                    Quick Links
+                </p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="index.html"
+                        class="text-gray-600 transition-colors duration-300 text-white hover:text-[#215b4b] font-semibold">Home</a>
+                    <a href="about.html"
+                        class="text-gray-600 transition-colors duration-300 text-white   hover:text-[#215b4b] font-semibold">About</a>
+                    <a href="contact_us.html"
+                        class="text-gray-600 transition-colors duration-300 text-white   hover:text-[#215b4b] font-semibold">Contact
+                        Us</a>
+                    <a href="programs.html"
+                        class="text-gray-600 transition-colors duration-300 text-white hover:text-[#215b4b] font-semibold">Programs</a>
+                    <a href="resources.html"
+                        class="text-gray-600 transition-colors duration-300 text-white hover:text-[#215b4b] font-semibold">Resources</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">
+                    Office Hours
+                </p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <p
+                        class="text-gray-600 transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+                        Monday
+                        to Friday: 8:00 AM - 5:00 PM</p>
+                    <p
+                        class="text-gray-600 transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+                        Saturday: 9:00 AM - 1:00 PM</p>
+                    <p
+                        class="text-gray-600 transition-colors duration-300 text-white  hover:text-green-600 font-semibold">
+                        Sunday: Closed</p>
+                </div>
+            </div>
+            <div>
+                <p class="text-2xl font-bold tracking-tight  text-green-600 sm:text-2xl dark:text-green-600">
+                    Contact Us
+                </p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <p class="text-gray-600 transition-colors duration-300 text-white font-semibold ">
+                        Phone: +256745755893
+                    </p>
+                    <p class="text-gray-600 transition-colors duration-300 text-white font-semibold">
+                        Email: stthomasbusiu@gmail.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-6 border-white md:my-10 dark:border-white" />
+
+        <div class="flex flex-col items-center justify-between sm:flex-row">
+            <p class="mt-4 text-sm sm:mt-0 text-white font-semibold">
+                © <span id="currentYear"></span> St. Thomas Junior School
+                Busiu. All Rights Reserved.
+            </p>
+            <script>
+                document.getElementById("currentYear").textContent =
+                    new Date().getFullYear();
+            </script>
+        </div>
+    </div>
+</footer>
+<!-- End of Footer -->
+>
+
+<!--JavaScript to toggle menu visibility on small screens-->
+<script>
+    document.getElementById('toggleButton').addEventListener('click', function () {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('-translate-x-full');
+    });
+</script>
+
+
+<script>
+    fetch('resources_data.json')
+        .then(response => response.json())
+        .then(data => {
+            const studyMaterialsContainer = document.getElementById('study-materials');
+
+            Object.keys(data).forEach(subject => {
+                const column = document.createElement('div');
+                column.innerHTML = `<h2 class="text-xl font-bold text-green-500 my-6">${subject}</h2><ul></ul>`;
+                // <h2 class="mt-4 text-xl font-bold text-green-500">Videos</h2>
+                const ul = column.querySelector('ul');
+
+                Object.keys(data[subject]).forEach(className => {
+                    const links = data[subject][className];
+                    const li = document.createElement('li');
+                    li.className = 'dropdown mt-4';
+                    li.innerHTML = `
+                        <a href="#" class="block rounded-xl text-gray-600 border bg-gray-50 border-gray-200 p-6 shadow-xl transition hover:border-green-500/10 hover:shadow-green-500/10 flex justify-between items-center text-xl ">
+                            ${className}
+                            <svg class="arrow w-6 h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </a>
+                        <div class="dropdown-content mt-2 ml-4 text-gray-600">
+                            <a href="${links['Past Papers']}" class="block bg-white p-2 rounded-lg shadow-md mb-2">Past Papers</a>
+                            <a href="${links['Notes']}" class="block bg-white p-2 rounded-lg shadow-md mb-2">Notes</a>
+                        </div>`;
+                    ul.appendChild(li);
+                });
+                studyMaterialsContainer.appendChild(column);
+            });
+
+            document.querySelectorAll('.dropdown a').forEach(dropdownToggle => {
+                dropdownToggle.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const dropdownContent = this.nextElementSibling;
+                    const arrow = this.querySelector('.arrow');
+                    if (dropdownContent.style.display === 'none' || dropdownContent.style.display === '') {
+                        dropdownContent.style.display = 'block';
+                        arrow.classList.add('rotate-180');
+                    } else {
+                        dropdownContent.style.display = 'none';
+                        arrow.classList.remove('rotate-180');
+                    }
+                });
+            });
+        })
+        .catch(error => console.error('Error fetching the JSON data:', error));
+</script>
+</body>
+
+</html>
