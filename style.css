@@ -1,7 +1,7 @@
 .bg-landing {
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/students_tutored.jpg) no-repeat center center;
+    url(images/crayons.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -9,7 +9,7 @@
   position: relative;
   background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/pexels-julia-m-cameron-414409student_playground.jpg) no-repeat
+    url(images/Mixture_of_paint.jpg) no-repeat
       center center / cover;
 }
 
@@ -36,7 +36,7 @@
   position: relative;
   background-size: contain;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url(images/student_assembly.jpg) no-repeat center center / cover;
+    url(images/Learning_numbers.png) no-repeat center center / cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
@@ -54,7 +54,7 @@
   position: relative;
   background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/student_thinking.jpeg) no-repeat center center / cover;
+    url(images/Paint_on_wall.jpg) no-repeat center center / cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
