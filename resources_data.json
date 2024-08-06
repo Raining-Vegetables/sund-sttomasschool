@@ -1,125 +1,133 @@
+
+
+
+
+
+
 {
-    "Science": {
-      "P1": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p1",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p1"
-      },
-      "P2": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P3": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P4": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P5": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P6": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P7": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      }
+  "Science": {
+    "P1": {
+      "Past Papers": "https://drive.google.com/drive/folders/1ud2FbRi2dyDQq0bCkOO0PP-unglEASM7?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1tLhCtpYKXWp6-_Q1T7YPP4ByLcFv9GvX?usp=drive_link"
     },
-    "Math": {
-      "P1": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p1",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-math-p1"
-      },
-      "P2": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-math-p2"
-      },
-      "P3": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P4": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P5": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P6": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P7": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      }
+    "P2": {
+      "Past Papers": "https://drive.google.com/drive/folders/1w7LCPJxsahM0sEVMjYop0ON7EhWZ1Vyt?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1EI12kLLLdPQgkiO7gLtzE15TUTFTRXDt?usp=drive_link"
     },
+    "P3": {
+      "Past Papers": "https://drive.google.com/drive/folders/1ELDeBMa4jLaSmOn3anm30c-Yrxkz8xHK?usp=drive_link",
+      "Notes": "https://drive.google.com/drive/folders/1ETwmV8pk7hJ1My2eYnKwdTHQqcsUrCSh?usp=drive_link"
+    },
+    "P4": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1EgwdN6iesclif2p1ccrkS-K7x1pKEJjX?usp=drive_link"
+    },
+    "P5": {
+      "Past Papers": "https://drive.google.com/drive/folders/1tmyjYYry-h-HiqdsRolFvmclpGAdmWS3?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1EohjVUz7RBdYuT0ZfZoINDJfgSdJ-pL-?usp=drive_link"
+    },
+    "P6": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1F92f9bSkL2fKrI34gy0xPxbCdrEddiT4?usp=drive_link"
+    },
+    "P7": {
+      "Past Papers": "https://drive.google.com/drive/folders/1iwY8qYyXUdEvWYgPKmQjzdL98DMTXB7D?usp=drive_link",
+      "Notes": "https://drive.google.com/drive/folders/1FG7h591EOy4nmiaJ35xSZlZeWXGCE-2l?usp=drive_link"
+    }
+  },
+  "Math": {
+    "P1": {
+      "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p1",
+      "Notes": "https://drive.google.com/drive/folders/1TIPoic74hObPR98eNbnf0O10IFExc48A?usp=drive_link"
+    },
+    "P2": {
+      "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p2",
+      "Notes": "https://drive.google.com/drive/folders/1E5K_twKYOeRHfsX4qz6PzqZ0jSP45RCk?usp=drive_link"
+    },
+    "P3": {
+      "Past Papers": "https://drive.google.com/drive/folders/1EL1qTHZh3uPFj-A6WkrTBtvE-4K0gvFJ?usp=drive_link",
+      "Notes": "https://drive.google.com/drive/folders/1EL1qTHZh3uPFj-A6WkrTBtvE-4K0gvFJ?usp=drive_link"
+    },
+    "P4": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1EadXfWv_78zIWwH88Yhq7hXS2x9zjzTq?usp=drive_link"
+    },
+    "P5": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1ElMnUn9ukCvPSHEpdFFXlS9wjqXX3vfN?usp=drive_link"
+    },
+    "P6": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1F92f9bSkL2fKrI34gy0xPxbCdrEddiT4?usp=drive_link"
+    },
+    "P7": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1FDlVZbHq0wQXPwL0jGpkzvUdCzxL5UJa?usp=drive_link"
+    }
+  },
 
-    "English": {
-      "P1": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p1",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-math-p1"
-      },
-      "P2": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-math-p2"
-      },
-      "P3": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P4": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P5": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P6": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P7": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      }
-    }, 
 
-    "Social Studies": {
-      "P1": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p1",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-math-p1"
-      },
-      "P2": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-math-p2"
-      },
-      "P3": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P4": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P5": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P6": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      },
-      "P7": {
-        "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-science-p2",
-        "Notes": "https://drive.google.com/drive/folders/notes-link-science-p2"
-      }
+  "English": {
+    "P1": {
+      "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p1",
+      "Notes": "https://drive.google.com/drive/folders/1Vs4W6iJuxykKfBrnZq60upZ-vCIiE7EH?usp=drive_link"
+    },
+    "P2": {
+      "Past Papers": "https://drive.google.com/drive/folders/past-papers-link-math-p2",
+      "Notes": "https://drive.google.com/drive/folders/1E50QAcUCMDxksgAVDs7HneQxiqfGt_W_?usp=drive_link"
+    },
+    "P3": {
+      "Past Papers": "https://drive.google.com/drive/folders/1ETwmV8pk7hJ1My2eYnKwdTHQqcsUrCSh?usp=drive_link",
+      "Notes": "https://drive.google.com/drive/folders/1ETwmV8pk7hJ1My2eYnKwdTHQqcsUrCSh?usp=drive_link"
+    },
+    "P4": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1EciGfBRPcK3Fq7V6U5eJlbmjmlVrlAUY?usp=drive_link"
+    },
+    "P5": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1F3nhrAWAkwCcXtxfU-2mnPpPqsOMVvHN?usp=drive_link"
+    },
+    "P6": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1FCxBg4Vkb-NmL5REWBqIKQ978IpEQRsG?usp=drive_link"
+    },
+    "P7": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1FF-78fRqHTUBktQUSDEm1jTBCKxuVxQX?usp=drive_link"
+    }
+  },
+
+
+  "Social Studies": {
+    "P1": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/14ar1CphIdDPMtWZyCB-rDYptC1IapE-1?usp=drive_link"
+    },
+    "P2": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1EDb-jZEvN8us7VYfleiaYxukMXiewaDS?usp=drive_link"
+    },
+    "P3": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1ELaDQgwdOj2o6S25vkXkIxax3LAYhuFX?usp=drive_link"
+    },
+    "P4": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1El2BhzeBA_pd-9NeAeShGo43n8_XCSu4?usp=drive_link"
+    },
+    "P5": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1F3nhrAWAkwCcXtxfU-2mnPpPqsOMVvHN?usp=drive_link"
+    },
+    "P6": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1FADxB66Rqe0Q8akoLY7xdBtebZrnrxcm?usp=drive_link"
+    },
+    "P7": {
+      "Past Papers": "https://drive.google.com/drive/folders/18kgAjnQIkQZnADuXvfrg5FXOiFU7sZdY?usp=sharing",
+      "Notes": "https://drive.google.com/drive/folders/1FGo3xMLnd-eArU5yrqSfF1Y0pnemyEAT?usp=drive_link"
     }
   }
-  
+}
+
