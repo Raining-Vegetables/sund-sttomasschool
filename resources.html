@@ -208,8 +208,10 @@
     </div>
 </footer>
 <!-- End of Footer -->
->
 
+</body>
+
+</html>
 <!--JavaScript to toggle menu visibility on small screens-->
 <script>
     document.getElementById('toggleButton').addEventListener('click', function () {
@@ -217,8 +219,6 @@
         sidebar.classList.toggle('-translate-x-full');
     });
 </script>
-
-
 <script>
     fetch('resources_data.json')
         .then(response => response.json())
@@ -228,7 +228,6 @@
             Object.keys(data).forEach(subject => {
                 const column = document.createElement('div');
                 column.innerHTML = `<h2 class="text-xl font-bold text-green-500 my-6">${subject}</h2><ul></ul>`;
-                // <h2 class="mt-4 text-xl font-bold text-green-500">Videos</h2>
                 const ul = column.querySelector('ul');
 
                 Object.keys(data[subject]).forEach(className => {
@@ -236,20 +235,20 @@
                     const li = document.createElement('li');
                     li.className = 'dropdown mt-4';
                     li.innerHTML = `
-                        <a href="#" class="block rounded-xl text-gray-600 border bg-gray-50 border-gray-200 p-6 shadow-xl transition hover:border-green-500/10 hover:shadow-green-500/10 flex justify-between items-center text-xl ">
+                        <a href="#" class="block rounded-xl text-gray-600 border bg-gray-50 border-gray-200 p-6 shadow-xl transition hover:border-green-500/10 hover:shadow-green-500/10 flex justify-between items-center text-xl">
                             ${className}
-                            <svg class="arrow w-6 h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            <svg class="arrow w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </a>
-                        <div class="dropdown-content mt-2 ml-4 text-gray-600">
-                            <a href="${links['Past Papers']}" class="block bg-white p-2 rounded-lg shadow-md mb-2">Past Papers</a>
-                            <a href="${links['Notes']}" class="block bg-white p-2 rounded-lg shadow-md mb-2">Notes</a>
+                        <div class="dropdown-content mt-2 ml-4 text-gray-600" style="display: none;">
+                            <a href="${links['Past-Papers']}" target="_blank" class="block bg-white p-2 rounded-lg shadow-md mb-2">Past Papers</a>
+                            <a href="${links['Notes']}" target="_blank" class="block bg-white p-2 rounded-lg shadow-md mb-2">Notes</a>
                         </div>`;
                     ul.appendChild(li);
                 });
                 studyMaterialsContainer.appendChild(column);
             });
 
-            document.querySelectorAll('.dropdown a').forEach(dropdownToggle => {
+            document.querySelectorAll('.dropdown > a').forEach(dropdownToggle => {
                 dropdownToggle.addEventListener('click', function (event) {
                     event.preventDefault();
                     const dropdownContent = this.nextElementSibling;
@@ -266,6 +265,3 @@
         })
         .catch(error => console.error('Error fetching the JSON data:', error));
 </script>
-</body>
-
-</html>
